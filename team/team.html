@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>team</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="team.css">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+   <!-- Local styles -->
+  <link rel="icon" href="../img/logo.png">
+
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <div id="rc_logo">
+        <a href="../index.html" title="Logo">Research <i class="fas fa-angle-double-right"></i> Team</a> <!-- Swap this placeholder out for your logo image -->
+        </div>  
+        
+        <div class="rc_nav" id="centered_nav">
+            <a href="../index.html" title="Home">Home</a>
+            <a href="../about.html" title="About">About</a>
+            <a class="active" href="team.html" title="Team">Team</a>
+            <a href="../News/news.html" title="News">News</a>
+            <a href="../research.html" title="Research">Research</a>
+            <a href="../projects.html" title="Projects">Projects</a>
+            <a href="../contact.html" title="Contact">Contact</a>
+            <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+  
+
+	<div class="team-section">
+		<div class="inner-width">
+      <h2>Meet our team</h2>
+			<div class="pers">
+				
+
+				<div class="pe">
+					<img src="https://pbs.twimg.com/profile_images/969390093411774465/uJ5LaoyJ_400x400.jpg" alt="rafeh">
+					<div class="p-name">Rafeh Qazi</div>
+					<div class="p-des">Designer</div>
+					<div class="p-sm">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-tumblr"></i></a>
+					</div>
+				</div>
+
+				<div class="pe">
+					<img src="https://pbs.twimg.com/profile_images/969390093411774465/uJ5LaoyJ_400x400.jpg" alt="rafeh">
+					<div class="p-name">Dev Tenzin</div>
+					<div class="p-des">Developer</div>
+					<div class="p-sm">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-tumblr"></i></a>
+					</div>
+				</div>
+
+				<div class="pe">
+					<img src="https://pbs.twimg.com/profile_images/969390093411774465/uJ5LaoyJ_400x400.jpg" alt="rafeh">
+					<div class="p-name">Darrel wilson</div>
+					<div class="p-des">Director</div>
+					<div class="p-sm">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-tumblr"></i></a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+          $("li#about a").addClass("active");
+          $("li#about a").addClass("hvr-bubble-bottom");
+        });
+     
+        function myFunction() {
+        var x = document.getElementById("centered_nav");
+        if (x.className === "rc_nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "rc_nav";
+        }
+     }
+      </script>
+</body>
+</html>

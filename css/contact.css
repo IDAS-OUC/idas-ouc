@@ -1,0 +1,227 @@
+body {
+    margin:0;   
+    background-color: #292b31;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-size: 1em;
+    }
+    
+    #rc_logo {
+     left: 30px;
+     padding: 22px;
+     position: absolute;
+     color: #fff;
+     font-size: 19px;
+     font-family: Poppins;
+     text-decoration: none;
+    }
+    
+    #rc_logo a { 
+    color: inherit; 
+    text-decoration: none;
+    } 
+    
+    .rc_nav {
+      overflow: hidden;
+      background-color: #363841;
+      text-align: center;
+      z-index: 6;
+    }
+    
+    .rc_nav a {
+     display: inline-block;
+     margin-right: -4px;  /* inline-block gap fix */
+     color: #fff;
+     padding: 22px 22px;
+     text-decoration: none;
+     font-family: Poppins;
+     font-size: 18px;
+     -webkit-transition: background 0.3s linear;
+     -moz-transition: background 0.3s linear;
+     -ms-transition: background 0.3s linear;
+     -o-transition: background 0.3s linear;
+     transition: background 0.3s linear;
+     z-index: 9;
+    }
+    
+    .rc_nav a:hover {
+      background-color: #575b69;
+      color: #bfe0e2;
+    }
+    
+    .rc_nav .icon {
+      display: none;
+    }
+    
+    .rc_content {
+      text-align: center; 
+      padding-left:14px; 
+      font-family: Poppins; 
+      margin-top: 100px;  
+      color: #8e909b;
+    }
+    
+    
+    @media screen and (max-width: 820px) {
+      .rc_nav a {display: none;}
+      .rc_nav a.icon {
+        float: right;
+        display: block;
+        width: 60px;
+      }
+    }
+    
+    @media screen and (max-width: 820px) {
+      .rc_nav.responsive {position: relative; top: 73px;}
+      .rc_nav.responsive .icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+      }
+      .rc_nav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+      }
+    
+    }
+
+
+.box *:last-child {
+  margin-bottom: 0;
+}
+
+.box-4 {
+  box-shadow: 0 10px 10px rgba(255,0,0,0.2);
+  position: relative;
+  width: 80%;
+  margin: 20px 0px 0px 40px;
+}
+
+.box-content {
+  background: none repeat scroll 0 0 #FFFFFF;
+  background-color: #f3f3f3;
+  padding: 25px 55px 45px 55px;
+  position: relative;
+  z-index: 1;
+}
+.box-4:after {
+  border-radius: 0 0 50% 50% / 0 0 20px 20px;
+  bottom: 0;
+  box-shadow: 0 20px 20px rgba(255,0,0,0.2);
+  content: "";
+  height: 20px;
+  left: 10px;
+  position: absolute;
+  right: 10px;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+
+h2 {
+text-align: center;
+font-size: 30px;
+}
+
+h3 {
+text-align: center;
+font-size: 20px;
+}
+
+h4 {
+text-align: center;
+font-size: 15px;
+}
+
+a {
+text-decoration:none;
+color: #00c;
+}
+
+/* Whatsapp Floating Button */
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+z-index:100;
+}
+
+.my-float{
+  margin-top:16px;
+}
+/*Wechat*/
+.my-float-wechat{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:150px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+z-index:100;
+  
+}
+.my{
+  margin-top:16px;
+}
+/*Linkedin*/
+.my-float-linkedin{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:250px;
+  right:40px;
+  background-color:#25304e;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+z-index:100;
+  
+}
+.mylink{
+  margin-top:16px;
+}
+
+/* Divider */
+.h-divider {
+margin: auto;
+margin-top: 80px;
+width: 80%;
+position: relative;
+}
+
+.h-divider .shadow {
+overflow: hidden;
+height: 20px;
+}
+
+.h-divider .shadow:after {
+content: '';
+display: block;
+margin: -25px auto 0;
+width: 100%;
+height: 25px;
+border-radius: 125px/12px;
+box-shadow: 0 0 8px black;
+}
+.active{
+  background-color: #575b69;
+}
