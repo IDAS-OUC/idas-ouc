@@ -18,7 +18,11 @@
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<![endif]-->
+	
+	 <!-- Font Awesome -->
+	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 
 
 </head>
 <body>
@@ -200,6 +204,7 @@
   </section>
 
 
+
 	<div class="testimonial-area">
     <div class="testimonial-solid">
         <div class="container">
@@ -297,7 +302,53 @@
         </div>
 </div>
 </section>
-	<footer>
+<!--Team Slider-->
+
+<section>
+    <h1>Meet Our Team</h1>
+    <h2>We have an Awesome team.</h2>
+
+    <div id="exampleSlider">
+       <div class="MS-content">
+           <div class="item">
+               <p>Item<br>1</p>
+           </div>
+           <div class="item">
+               <p>Item<br>2</p>
+           </div>
+           <div class="item">
+               <p>Item<br>3</p>
+           </div>
+           <div class="item">
+               <p>Item<br>4</p>
+           </div>
+           <div class="item">
+               <p>Item<br>5</p>
+           </div>
+           <div class="item">
+               <p>Item<br>6</p>
+           </div>
+           <div class="item">
+               <p>Item<br>7</p>
+           </div>
+           <div class="item">
+               <p>Item<br>8</p>
+           </div>
+           <div class="item">
+               <p>Item<br>9</p>
+           </div>
+           <div class="item">
+               <p>Item<br>10</p>
+           </div>
+       </div>
+       <div class="MS-controls">
+           <button class="MS-left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+           <button class="MS-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+       </div>
+   </div>
+   </section>
+<p></p>
+  <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3">
@@ -387,5 +438,21 @@
 <script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
 <script src="js/timeline.js"></script>
+
+<!-- Include jQuery -->
+<script src="js/jquery-2.2.4.min.js"></script>
+
+<!-- Include Multislider -->
+<script src="js/multislider.min.js"></script>
+
+<!-- Initialize element with Multislider -->
+<script>
+$('#exampleSlider').multislider({
+	interval: 4000,
+	slideAll: true,
+	duration: 1500
+});
+</script>
+
 </body>
 </html>
