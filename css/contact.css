@@ -23,8 +23,9 @@ body {
     .rc_nav {
       overflow: hidden;
       background-color: #363841;
-      text-align: center;
+      text-align: right;
       z-index: 6;
+      padding-right:15px;
     }
     
     .rc_nav a {
