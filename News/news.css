@@ -1,15 +1,9 @@
-body {
-    margin:0;   
-    background-color: #292b31;
-    font-family: Comic Sans, Comic Sans MS;
-    font-size: 1em;
-    }
-    
-    #rc_logo {
+
+      #rc_logo {
      left: 30px;
      padding: 22px;
      position: absolute;
-     color: #fff;
+     color: rgb(24, 23, 23);
      font-size: 19px;
      font-family: Poppins;
      text-decoration: none;
@@ -22,15 +16,16 @@ body {
     
     .rc_nav {
       overflow: hidden;
-      background-color: #363841;
-      text-align: center;
+      background-color: #fbfbfd;
+      text-align: right;
       z-index: 6;
+      padding-right:15px;
     }
     
     .rc_nav a {
      display: inline-block;
      margin-right: -4px;  /* inline-block gap fix */
-     color: #fff;
+     color: rgb(5, 5, 5);
      padding: 22px 22px;
      text-decoration: none;
      font-family: Poppins;
@@ -44,7 +39,7 @@ body {
     }
     
     .rc_nav a:hover {
-      background-color: #575b69;
+      background-color: #393d4b;
       color: #bfe0e2;
     }
     
