@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="reset.css" rel="stylesheet">
+    <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./CSS/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+
+    <title> Research | NewsGrid</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <!-- Local styles -->
+    <link rel="icon" href="../img/logo.png">
+
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel="stylesheet" href="news.css">
+
+
+</head>
+<body>
+<div id="rc_logo">
+    <a href="../index.html" title="Logo">Research <i class="fas fa-angle-double-right"></i> News</a> <!-- Swap this placeholder out for your logo image -->
+</div>
+
+<div class="rc_nav" id="centered_nav">
+    <a href="../index.html" title="Home">Home</a>
+    <a href="../about.html" title="About">About</a>
+    <a href="../team/team.html" title="Team">Team</a>
+    <a class="active" href="news.html" title="News">News</a>
+    <a href="../research.html" title="Research">Research</a>
+    <a href="../projects.html" title="Projects">Projects</a>
+    <a href="../contact.html" title="Contact">Contact</a>
+    <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<header id = 'showcase'>
+    <div class="container">
+        <div class="showcase-container">
+            <div class="showcase-content">
+
+                <h1>Published papers</h1>
+                <p>Here are some of our published papers in the previous year.</p>
+                <a href="article.html" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="home-articles" class="py-2">
+    <div class="container">
+        <h2>Editors Picks</h2>
+
+    </div>
+    <!-- 新闻内容开始 -->
+    <div class="news">
+        <ul class="newsCon">
+            <!--第一部分-->
+            <li class="news1 wrapper">
+                <div class="part1">
+                    <a href="article.html"><img src="img/articles/ent1.jpg" alt="photo"></a>
+                    <div class="txt1">
+                        <p>[J35] Li-Na Wang, Wenxue Liu, Xiang Liu, Guoqiang Zhong, Partha Pratim Roy, Junyu Dong, Kaizhu Huang: Compressing Deep Networksby Neuron Agglomerative Clustering. Sensors 20: 6033 (2020).
+                        </p>
+                        <p class="last">Published in 2020</p>
+                    </div>
+                </div>
+
+                <div class="part1">
+                    <a href="article.html"><img src="img/articles/ent2.jpg" alt="photo"></a>
+                    <div class="txt1">
+                        <p>[J34] Ying Ma, Guoqiang Zhong, Wen Liu, Jinxuan Sun, Kaizhu Huang:Neural CAPTCHA networks. Applied Soft Computing 97: 106769 (2020).</p>
+                        <p class="last">Published in 2020</p>
+                    </div>
+                </div>
+
+                <div class="part1">
+                    <a href="article.html"><img src="img/articles/tech1.jpg" alt="photo"></a>
+                    <div class="txt1">
+                        <p>[J33] Guoqiang Zhong, Wei Gao, Yongbin Liu, Youzhao Yang, Da-Han Wang, Kaizhu Huang: Generative Adversarial Networks with Decoder-Encoder Output Noises.Neural Networks 127: 19-28 (2020).</p>
+                        <p class="last">Published in 2020</p>
+                    </div>
+                </div>
+
+                <div class="part1">
+                    <a href="article.html"><img src="img/articles/tech2.jpg" alt="photo"></a>
+                    <div class="txt1">
+                        <p>[J31] Tao Li, Wencong Jiao, Li-Na Wang, Guoqiang Zhong*: Automatic DenseNet Sparsification.IEEE Access 8: 62561-62571 (2020).</p>
+                        <p class="last">Published in 2020</p>
+                    </div>
+                </div>
+                <div class="part1">
+                    <a href="article.html"><img src="img/articles/sports1.jpg" alt="photo"></a>
+                    <div class="txt1">
+                        <p>[J29] Guoqiang Zhong, Tao Li, Wencong Jiao, Li-Na Wang, Junyu Dong, Cheng-Lin Liu: DNA Computing Inspired Deep Networks Design.Neurocomputing 382: 140-147 (2020).</p>
+                        <p class="last">Published in 2020</p>
+                    </div>
+                </div>
+
+                <div class="pages">
+                    <ul>
+                        <li>首页</li>
+                        <li class="pageFront"><<</li>
+                        <li class="pages01">&nbsp;1&nbsp;</li>
+                        <li>2&nbsp;</li>
+                        <li>3&nbsp;</li>
+                        <li>...&nbsp;</li>
+                        <li>>></li>
+                        <li>末页</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 新闻内容结束 -->
+</section>
+
+<footer id = 'main-footer' class = 'py-2'>
+    <div class="container footer-container">
+        <div>
+            <img src="../img/logo.png" alt="logo">
+            <p>Welcome to college of information Science.Department of Computer Science.</p>
+        </div>
+        <div>
+            <h3>Email Newsletter</h3>
+            <p>You can subscribe to our newsletters for more updates.</p>
+            <form>
+                <input type="email" placeholder="Email:" required>
+                <input type="submit" value="Subscribe" class = 'btn btn-primary'>
+            </form>
+        </div>
+        <div>
+            <h3>Site Links</h3>
+            <ul class = 'list'>
+                <li><a href="../contact.html">Help and Support</a></li>
+                <li><a href="../contact.html">Privacy Policy</a></li>
+                <li><a href="../about.html">About Us</a></li>
+                <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Join our Team</h2>
+            <p>Welcome to join our team.</p>
+            <a href="#" class="btn btn-secondary">Join Now</a>
+        </div>
+        <div>
+            <p>
+                Copyright NewsGrid &copy; 2021, All Rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    $(document).ready(function() {
+        $("li#about a").addClass("active");
+        $("li#about a").addClass("hvr-bubble-bottom");
+    });
+
+    function myFunction() {
+        var x = document.getElementById("centered_nav");
+        if (x.className === "rc_nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "rc_nav";
+        }
+    }
+
+    $(document).ready(function() {
+        $("ul li:gt(3)").hide(); //初始化，前面4条数据显示，其他的数据隐藏。
+        var total_q = $("ul li").index() + 1; //总数据
+        var current_page = 5; //每页显示的数据
+        var current_num = 1; //当前页数
+        var total_page = Math.round(total_q / current_page); //总页数
+        var next = $(".next"); //下一页
+        var prev = $(".prev"); //上一页
+        $(".total").text(total_page); //显示总页数
+        $(".current_page").text(current_num); //当前的页数
+
+        //下一页
+        $(".next").click(function() {
+            if (current_num == 7) {
+                return false; //如果大于总页数就禁用下一页
+            } else {
+                $(".current_page").text(++current_num); //点击下一页的时候当前页数的值就加1
+                $.each($('ul li'), function(index, item) {
+                    var start = current_page * (current_num - 1); //起始范围
+                    var end = current_page * current_num; //结束范围
+                    if (index >= start && index < end) { //如果索引值是在start和end之间的元素就显示，否则就隐
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            }
+        });
+        //上一页方法
+        $(".prev").click(function() {
+            if (current_num == 1) {
+                return false;
+            } else {
+                $(".current_page").text(--current_num);
+                $.each($('ul li'), function(index, item) {
+                    var start = current_page * (current_num - 1); //起始范围
+                    var end = current_page * current_num; //结束范围
+                    if (index >= start && index < end) { //如果索引值是在start和end之间的元素就显示，否则就隐藏
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            }
+
+        })
+    })
+
+</script>
+</body>
+</html>
